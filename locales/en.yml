@@ -616,10 +616,10 @@ strings:
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-    👋🏻 Hi {first}! KannadaHelp Bot is the most complete Bot to help you manage your groups easily and safely! 
-   
-    Hit /help to find out more about how to use me in my full potential!
-    [📃 Privacy policy](https://www.grouphelp.top/privacy).
+         Hey there! I'm Raze.
+      I'm here to help you manage your groups!
+      Hit /help to find out more about how to use me in my full potential!
+      [Private Policy](https://www.grouphelp.top/privacy) .
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "About"
   utils:
