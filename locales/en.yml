@@ -612,10 +612,11 @@ strings:
       <b>Developers:</b> [Darshan](https://github.com/XDacchuX)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
+    groupt_btn: Channel
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      👋🏻 Hi {}! KannadaHelp Bot is the most complete Bot to help you manage your groups easily and safely! 
+      👋🏻 Hi {first}! KannadaHelp Bot is the most complete Bot to help you manage your groups easily and safely! 
  👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action!
  ❓ WHICH ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
