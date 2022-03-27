@@ -51,6 +51,11 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
+                ( 
+                    f"{(tlang(q, 'start.group_btn'))}", 
+                    "https://t.me/Study_Circle", 
+                    " url", 
+                ), 
             ],
             [(f"📚 {(tlang(q, 'start.commands_btn'))}", "commands")],
             [
