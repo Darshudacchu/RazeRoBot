@@ -50,7 +50,7 @@ strings:
 
         Note:
         a) Currently it supports only text!
-        b) Alita must be an admin to greet and goodbye users.
+        b) Raze must be an admin to greet and goodbye users.
 
         Admin Commands:
         × /setwelcome <reply> : Sets a custom welcome message.
@@ -616,11 +616,11 @@ strings:
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      👋🏻 Hi {first}! KannadaHelp Bot is the most complete Bot to help you manage your groups easily and safely! 
- 👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action!
- ❓ WHICH ARE THE COMMANDS? ❓
-Press /help to see all the commands and how they work!
-[📃 Privacy policy](https://www.grouphelp.top/privacy).
+    👋🏻 Hi {first}! KannadaHelp Bot is the most complete Bot to help you manage your groups easily and safely! 
+    👉🏻 Add me in a Supergroup and promote me as Admin to let me get in action!
+    ❓ WHICH ARE THE COMMANDS? ❓
+    Press /help to see all the commands and how they work!
+    [📃 Privacy policy](https://www.grouphelp.top/privacy).
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "About"
   utils:
