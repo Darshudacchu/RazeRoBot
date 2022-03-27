@@ -62,7 +62,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                 (f"🌐 {(tlang(q, 'start.language_btn'))}", "chlang"),
                 (
                     f"🗃️ {(tlang(q, 'start.source_code'))}",
-                    "https://github.com/RazeNetwork/GroupManagerRobot",
+                    "https://t.me/KannadaHelpBotAbout",
                     "url",
                 ),
             ],
