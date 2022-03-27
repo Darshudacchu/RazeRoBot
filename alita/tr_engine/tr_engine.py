@@ -59,7 +59,7 @@ def tlang(m, user_msg):
 
         # Get lang
         m_args.insert(0, lang)
-        m_args.insert(5, "strings")
+        m_args.insert(1, "strings")
 
         try:
             txt = reduce(getitem, m_args, lang_dict)
