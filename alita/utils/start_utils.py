@@ -46,7 +46,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
-                (
+            ], 
+            [(
                     f"{(tlang(q, 'start.support_group'))} 👥",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
