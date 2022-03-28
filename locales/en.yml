@@ -602,7 +602,7 @@ strings:
     set_rules: "Successfully set rules for this group."
   start:
     add_chat_btn: "Add me to a chat!"
-    commands_btn: Commands & Help
+    commands_btn: Commands
     group: "I'm alive :3"
     info_page: |-
       • @Raze_Robot
@@ -624,7 +624,7 @@ strings:
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "About"
     aboutbt: |-
-       Hello User This Bot is Created By [Darshan](t.me/XDacchuX) 
+       Hello User! This Bot is Created By [Darshan](t.me/XDacchuX) 
        If any Problems on this bot You can report to [Support Group](t.me/TgParlimentHouse). 
   utils:
     gif_id:
