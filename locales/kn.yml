@@ -32,41 +32,41 @@ strings:
     approve:
       main: "Approve"
       help: |-
-        Sometimes, you might trust a user not to send unwanted content.
-        Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-        That's what approvals are for - approve trustworthy users to allow them to send stuff without restrictions!
-        **Admin commands:**
-        × /approval: Check a user's approval status in this chat.
-        × /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-        × /unapprove: Unapprove of a user. They will now be subject to blocklists.
-        × /approved: List all approved users.
-        × /unapproveall: Unapprove *ALL* users in a chat. This cannot be undone!
-        **Example:**
-        `/approve @username`: this approves a user in the chat.
+        ಕೆಲವೊಮ್ಮೆ, ಅನಗತ್ಯ ವಿಷಯವನ್ನು ಕಳುಹಿಸುವುದಿಲ್ಲ ಎಂದು ನೀವು ಬಳಕೆದಾರರನ್ನು ನಂಬಬಹುದು.
+        ಅವರನ್ನು ನಿರ್ವಾಹಕರನ್ನಾಗಿ ಮಾಡಲು ಬಹುಶಃ ಸಾಕಾಗುವುದಿಲ್ಲ, ಆದರೆ ಲಾಕ್‌ಗಳು, ಕಪ್ಪುಪಟ್ಟಿಗಳು ಮತ್ತು ಆಂಟಿಫ್ಲಡ್ ಅವರಿಗೆ ಅನ್ವಯಿಸದಿರುವುದು ನಿಮಗೆ ಸರಿಯಾಗಿರಬಹುದು.
+        ಅದಕ್ಕಾಗಿಯೇ ಅನುಮೋದನೆಗಳು - ವಿಶ್ವಾಸಾರ್ಹ ಬಳಕೆದಾರರಿಗೆ ನಿರ್ಬಂಧಗಳಿಲ್ಲದೆ ವಿಷಯವನ್ನು ಕಳುಹಿಸಲು ಅನುಮತಿಸಲು ಅನುಮೋದಿಸಿ!
+        **ನಿರ್ವಾಹಕ ಆಜ್ಞೆಗಳು:**
+        × /approval: ಈ ಚಾಟ್‌ನಲ್ಲಿ ಬಳಕೆದಾರರ ಅನುಮೋದನೆ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ.
+        × /approve: ಬಳಕೆದಾರರನ್ನು ಅನುಮೋದಿಸಿ. ಲಾಕ್‌ಗಳು, ಬ್ಲಾಕ್‌ಲಿಸ್ಟ್‌ಗಳು ಮತ್ತು ಆಂಟಿಫ್ಲಡ್ ಇನ್ನು ಮುಂದೆ ಅವರಿಗೆ ಅನ್ವಯಿಸುವುದಿಲ್ಲ.
+        × /unapprove: ಬಳಕೆದಾರರನ್ನು ಅನುಮೋದಿಸಬೇಡಿ. ಅವರು ಈಗ ಬ್ಲಾಕ್‌ಲಿಸ್ಟ್‌ಗಳಿಗೆ ಒಳಪಟ್ಟಿರುತ್ತಾರೆ.
+        × /approved: ಎಲ್ಲಾ ಅನುಮೋದಿತ ಬಳಕೆದಾರರನ್ನು ಪಟ್ಟಿ ಮಾಡಿ.
+        × /unapproveall: ಚಾಟ್‌ನಲ್ಲಿ *ಎಲ್ಲ* ಬಳಕೆದಾರರನ್ನು ಅನುಮೋದಿಸಬೇಡಿ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ!
+        **ಉದಾಹರಣೆ:**
+        /approve @username: ಇದು ಚಾಟ್‌ನಲ್ಲಿ ಬಳಕೆದಾರರನ್ನು ಅನುಮೋದಿಸುತ್ತದೆ.
     greetings:
       main: "Greetings"
       help: |-
-        Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
+        ಬಹುವಿಧದಲ್ಲಿ ವೈಯಕ್ತೀಕರಿಸಬಹುದಾದ ನಿಮ್ಮ ಗುಂಪಿನ ಸ್ವಾಗತ / ವಿದಾಯ ಸಂದೇಶಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.
 
-        Note:
-        a) Currently it supports only text!
-        b) Alita must be an admin to greet and goodbye users.
+        ಸೂಚನೆ:
+        ಎ) ಪ್ರಸ್ತುತ ಇದು ಪಠ್ಯವನ್ನು ಮಾತ್ರ ಬೆಂಬಲಿಸುತ್ತದೆ!
+        b) ಬಳಕೆದಾರರನ್ನು ಸ್ವಾಗತಿಸಲು ಮತ್ತು ವಿದಾಯ ಹೇಳಲು HelpBot ನಿರ್ವಾಹಕರಾಗಿರಬೇಕು.
 
-        Admin Commands:
-        × /setwelcome <reply> : Sets a custom welcome message.
-        × /setgoodbye <reply> : Sets a custom goodbye message.
-        × /resetwelcome : Resets to bot default welcome message.
-        × /resetgoodbye : Resets to bot default goodbye message.
-        × /welcome <on/off> | noformat : enable/disable | Shows the current welcome message | settings.
-        × /goodbye <on/off> | noformat : enable/disable | Shows the current goodbye message | settings.
-        × /cleanwelcome <on/off> : Shows or sets the current clean welcome settings.
-        × /cleangoodbye <on/off> : Shows or sets the current clean goodbye settings.
+        **ನಿರ್ವಾಹಕ ಆಜ್ಞೆಗಳು:**
+        × /setwelcome <reply>: ಕಸ್ಟಮ್ ಸ್ವಾಗತ ಸಂದೇಶವನ್ನು ಹೊಂದಿಸುತ್ತದೆ.
+        × /setgoodbye <reply>: ಕಸ್ಟಮ್ ವಿದಾಯ ಸಂದೇಶವನ್ನು ಹೊಂದಿಸುತ್ತದೆ.
+        × /resetwelcome: ಬೋಟ್ ಡೀಫಾಲ್ಟ್ ಸ್ವಾಗತ ಸಂದೇಶಕ್ಕೆ ಮರುಹೊಂದಿಸುತ್ತದೆ.
+        × /resetgoodbye: ಬೋಟ್ ಡೀಫಾಲ್ಟ್ ವಿದಾಯ ಸಂದೇಶಕ್ಕೆ ಮರುಹೊಂದಿಸುತ್ತದೆ.
+        × /welcome <on/off> | noformat : ಸಕ್ರಿಯಗೊಳಿಸು/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು | ಪ್ರಸ್ತುತ ಸ್ವಾಗತ ಸಂದೇಶವನ್ನು ತೋರಿಸುತ್ತದೆ | ಸಂಯೋಜನೆಗಳು.
+        × /goodbye <on/off> | noformat : ಸಕ್ರಿಯಗೊಳಿಸು/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು | ಪ್ರಸ್ತುತ ವಿದಾಯ ಸಂದೇಶವನ್ನು ತೋರಿಸುತ್ತದೆ | ಸಂಯೋಜನೆಗಳು.
+        × /cleanwelcome <on/off>: ಪ್ರಸ್ತುತ ಕ್ಲೀನ್ ಸ್ವಾಗತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೋರಿಸುತ್ತದೆ ಅಥವಾ ಹೊಂದಿಸುತ್ತದೆ.
+        × /cleangoodbye <on/off>: ಪ್ರಸ್ತುತ ಕ್ಲೀನ್ ಗುಡ್‌ಬೈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೋರಿಸುತ್ತದೆ ಅಥವಾ ಹೊಂದಿಸುತ್ತದೆ.
 
-        ── **Cleaner** ──:
-        × /cleanservice <on/off> : Use it to clean all service messages automatically or to view current status.
+        **── ಕ್ಲೀನರ್ ──:**
+        × /cleanservice : ಎಲ್ಲಾ ಸೇವಾ ಸಂದೇಶಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸ್ವಚ್ಛಗೊಳಿಸಲು ಅಥವಾ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ವೀಕ್ಷಿಸಲು ಇದನ್ನು ಬಳಸಿ.
 
-        ── **Format** ──
-        Check /markdownhelp for help related to formatting!
+        **── Format ──**
+        ಫಾರ್ಮ್ಯಾಟಿಂಗ್‌ಗೆ ಸಂಬಂಧಿಸಿದ ಸಹಾಯಕ್ಕಾಗಿ /markdownhelp ಅನ್ನು ಪರಿಶೀಲಿಸಿ!
     bans:
       main: "Bans"
       help: |-
