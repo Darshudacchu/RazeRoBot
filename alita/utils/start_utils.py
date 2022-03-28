@@ -60,6 +60,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [(f"📚 {(tlang(q, 'start.commands_btn'))}", "commands"),
              (f"{(tlang(q, 'start.source_code'))} 💬", "aboutbt"),
+            ],
             [(
                     f"🌐 {(tlang(q, 'start.language_btn'))}"," chlang"),
             ],
