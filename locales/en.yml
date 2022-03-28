@@ -623,6 +623,9 @@ strings:
       [Private Policy](https://www.grouphelp.top/privacy) .
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "About"
+    aboutbt: |-
+       Hello User This Bot is Created By [Darshan](t.me/XDacchuX) 
+       If any Problems on this bot You can report to [Support Group](t.me/TgParlimentHouse). 
   utils:
     gif_id:
       reply_gif: "Please reply to a gif to get it's ID."
