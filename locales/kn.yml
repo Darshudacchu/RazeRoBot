@@ -1,8 +1,8 @@
 ---
 main:
-  lang_sample: "Suomalainen"
-  language_flag: "🇫🇮"
-  language_name: Suomalainen
+  lang_sample: "ಕನ್ನಡ"
+  language_flag: "🇮🇳"
+  language_name: ಕನ್ನಡ
 strings:
   plugins:
     admin:
@@ -601,27 +601,27 @@ strings:
     sent_pm_rules: "I've messaged you the rules"
     set_rules: "Successfully set rules for this group."
   start:
-    add_chat_btn: "Add me to a chat!"
-    commands_btn: Commands & Help
+    add_chat_btn: "ನನ್ನನು ಗ್ರೂಪ್ ಗೆ Add ಮಾಡಿ !"
+    commands_btn: ಕಮಾಂಡ್ಸ್
     group: "I'm alive :3"
     info_page: |-
-      • @Alita_Robot
+      • @Raze_Robot
 
       <b>Version:</b> <i>{version}</i>
 
       <b>Developers:</b> [Divkix](https://github.com/Divkix)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
-    support_group: Support
-    language_btn: Language
+    support_group: support
+    language_btn: ಭಾಷೆ 
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is Alita ✨.
-      I'm here to help you manage your groups!
+      ಹಾಯ್! ನಾನು ಕನ್ನಡ ಗ್ರೂಪ್ಸಹಾಯಕ .
+      ನಾನು ಇಲ್ಲಿ ಗ್ರೂಪ್ ಗಳ ಸೆಟ್ಟಿಂಗ್ಸ್ ನಿಭಾಯಸಿಸಲು ಕಾರ್ಯ ನಿರ್ವಹಿಸುತ್ತಿದ್ದೇನೆ!
       Hit /help to find out more about how to use me in my full potential!
 
       Join my [News Channel](http://t.me/AlitaRobotUpdates) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
-    source_code: "Source Code"
+    source_code: "ನನ್ನ ಬಗ್ಗೆ"
   utils:
     gif_id:
       reply_gif: "Please reply to a gif to get it's ID."
