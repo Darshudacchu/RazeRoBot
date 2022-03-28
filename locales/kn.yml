@@ -155,10 +155,9 @@ strings:
       help: |-
         Not able to change language of the bot?
         Easily change by using this module!
+        /lang ಅಂತ ಟೈಪ್ ಮಾಡಿ ನಿಮಗೆ ಸೂಕ್ತವಾದ ಭಾಷೆ ಆಯ್ಕೆ ಮಾಡಿ.
 
-        Just type /lang and use inline keyboard to choose a language for yourself or your group.
-
-        You can help us bring bot to more languages by helping on [Crowdin](https://crowdin.com/project/alita_robot)
+        ನೀವು ಕೂಡ ನಮಗೆ ಬೇರೆ-ಬೇರೆ ಭಾಷೆ bot ನಲ್ಲಿ ತರಲು translate ಸಹಾಯ ಮಾಡಬಹುದು [Crowdin](https://crowdin.com/project/KannadaHelpBot)
     locks:
       main: "Locks"
       help: |-
