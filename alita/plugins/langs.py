@@ -24,7 +24,7 @@ async def gen_langs_kb():
         [
             (
                 "🌎 Help us with translations!",
-                "https://crowdin.com/project/alita_robot",
+                "https://crowdin.com/project/KannadaHelpBot",
                 "url",
             ),
         ],
@@ -112,7 +112,7 @@ __buttons__ = [
     [
         (
             "🌎 Help us with translations!",
-            "https://crowdin.com/project/alita_robot",
+            "https://crowdin.com/project/KannadaHelpBot",
             "url",
         ),
     ],
