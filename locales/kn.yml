@@ -70,40 +70,40 @@ strings:
     bans:
       main: "Bans"
       help: |-
-        Someone annoying entered your group?
-        Want to ban/restriction him/her?
-        This is the plugin for you, easily kick, ban and unban members in a group.
-        **Admin only:**
-        × /kick: Kick the user replied or tagged.
-        × /skick: Kick the user replied or tagged and delete your messsage.
-        × /dkick: Kick the user replied and delete their message.
-        × /ban: Bans the user replied to or tagged.
-        × /sban: Bans the user replied or tagged and delete your messsage.
-        × /dban: Bans the user replied and delete their message.
-        × /tban <userhandle> x(m/h/d): Bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /stban <userhandle> x(m/h/d): Silently bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /dtban <userhandle> x(m/h/d): Silently bans a user for x time and delete the replied message. (via reply). m = minutes, h = hours, d = days.
-        × /unban: Unbans the user replied to or tagged.
-        **Example:**
-        `/ban @username`: this bans a user in the chat.
+        ಯಾರೋ ಕಿರಿಕಿರಿ ನಿಮ್ಮ ಗುಂಪನ್ನು ಪ್ರವೇಶಿಸಿದ್ದಾರೆಯೇ?
+        ಅವನನ್ನು/ಅವಳನ್ನು ನಿಷೇಧಿಸಲು/ನಿರ್ಬಂಧಿಸಲು ಬಯಸುವಿರಾ?
+        ಇದು ನಿಮಗಾಗಿ ಪ್ಲಗಿನ್ ಆಗಿದೆ, ಗುಂಪಿನಲ್ಲಿ ಸದಸ್ಯರನ್ನು ಸುಲಭವಾಗಿ ಒದೆಯಿರಿ, ನಿಷೇಧಿಸಿ ಮತ್ತು ನಿಷೇಧಿಸಿ.
+        **ನಿರ್ವಾಹಕರು ಮಾತ್ರ:**
+        × / ಕಿಕ್: ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಅಥವಾ ಟ್ಯಾಗ್ ಮಾಡಿದ ಬಳಕೆದಾರನನ್ನು ಕಿಕ್ ಮಾಡಿ.
+        × / ಸ್ಕಿಕ್: ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಅಥವಾ ಟ್ಯಾಗ್ ಮಾಡಿದ ಬಳಕೆದಾರರನ್ನು ಕಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ.
+        × /dkick: ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಬಳಕೆದಾರರು ಕಿಕ್ ಮಾಡಿ ಮತ್ತು ಅವರ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ.
+        × /ನಿಷೇಧ: ಬಳಕೆದಾರರು ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಅಥವಾ ಟ್ಯಾಗ್ ಮಾಡಿರುವುದನ್ನು ನಿಷೇಧಿಸುತ್ತದೆ.
+        × /sban: ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಅಥವಾ ಟ್ಯಾಗ್ ಮಾಡಿದ ಬಳಕೆದಾರರನ್ನು ನಿಷೇಧಿಸುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ.
+        × /dban: ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಬಳಕೆದಾರರನ್ನು ನಿಷೇಧಿಸುತ್ತದೆ ಮತ್ತು ಅವರ ಸಂದೇಶವನ್ನು ಅಳಿಸುತ್ತದೆ.
+        × /tban  x(m/h/d): x ಸಮಯಕ್ಕೆ ಬಳಕೆದಾರರನ್ನು ನಿಷೇಧಿಸುತ್ತದೆ. (ಹ್ಯಾಂಡಲ್ ಅಥವಾ ಪ್ರತ್ಯುತ್ತರ ಮೂಲಕ). m = ನಿಮಿಷಗಳು, h = ಗಂಟೆಗಳು, d = ದಿನಗಳು.
+        × /stban  x(m/h/d): x ಸಮಯಕ್ಕೆ ಬಳಕೆದಾರರನ್ನು ಮೌನವಾಗಿ ನಿಷೇಧಿಸುತ್ತದೆ. (ಹ್ಯಾಂಡಲ್ ಅಥವಾ ಪ್ರತ್ಯುತ್ತರ ಮೂಲಕ). m = ನಿಮಿಷಗಳು, h = ಗಂಟೆಗಳು, d = ದಿನಗಳು.
+        × /dtban  x(m/h/d): x ಸಮಯಕ್ಕೆ ಬಳಕೆದಾರರನ್ನು ಮೌನವಾಗಿ ನಿಷೇಧಿಸುತ್ತದೆ ಮತ್ತು ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ. (ಪ್ರತ್ಯುತ್ತರ ಮೂಲಕ). m = ನಿಮಿಷಗಳು, h = ಗಂಟೆಗಳು, d = ದಿನಗಳು.
+        × / ಅನ್‌ಬಾನ್: ಬಳಕೆದಾರರಿಗೆ ಪ್ರತ್ಯುತ್ತರಿಸಿದ ಅಥವಾ ಟ್ಯಾಗ್ ಮಾಡಲಾದ ನಿಷೇಧವನ್ನು ರದ್ದುಗೊಳಿಸುತ್ತದೆ.
+        **ಉದಾಹರಣೆ:**
+        /ban @username: ಇದು ಚಾಟ್‌ನಲ್ಲಿ ಬಳಕೆದಾರರನ್ನು ನಿಷೇಧಿಸುತ್ತದೆ.
     blacklist:
       main: "Blacklist"
       help: |-
-        Want to restrict certain words or sentences in your group?
-        Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, that message will immediately be deleted.
-        A good combo is sometimes to pair this up with warn filters!
-        **NOTE:** blacklists do not affect group admins.
-        × /blacklist: View the current blacklisted words.
-        **Admin only:**
-        × /addblacklist `<triggers>`: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
-        × /unblacklist `<triggers>`: Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
-        × /blaction `<action>`: This action will occur when user uses a blacklist word. Choose from - 'kick', 'ban', 'mute', 'warn'.
-        Default is 'none', which will delete the users message on typing a blacklist word.
-        **Owner Only**
-        × /rmallblacklist: Removes all the blacklists from the current chat.
-        **Note:** Can only add or remove one blacklist at a time!
-        **Example:**
-        `/addblacklist hello`: this adds the word 'hello' as blacklist in the chat.
+        ನಿಮ್ಮ ಗುಂಪಿನಲ್ಲಿ ಕೆಲವು ಪದಗಳು ಅಥವಾ ವಾಕ್ಯಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲು ಬಯಸುವಿರಾ?
+        ಕೆಲವು ಪ್ರಚೋದಕಗಳನ್ನು ಗುಂಪಿನಲ್ಲಿ ಹೇಳುವುದನ್ನು ತಡೆಯಲು ಕಪ್ಪುಪಟ್ಟಿಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಟ್ರಿಗ್ಗರ್ ಅನ್ನು ನಮೂದಿಸಿದರೆ, ಆ ಸಂದೇಶವನ್ನು ತಕ್ಷಣವೇ ಅಳಿಸಲಾಗುತ್ತದೆ.
+        ಎಚ್ಚರಿಕೆ ಫಿಲ್ಟರ್‌ಗಳೊಂದಿಗೆ ಕೆಲವೊಮ್ಮೆ ಇದನ್ನು ಜೋಡಿಸುವುದು ಉತ್ತಮ ಸಂಯೋಜನೆಯಾಗಿದೆ!
+        ಗಮನಿಸಿ: ಬ್ಲಾಕ್‌ಲಿಸ್ಟ್‌ಗಳು ಗುಂಪಿನ ನಿರ್ವಾಹಕರ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.
+        × /blacklist: ಪ್ರಸ್ತುತ ಕಪ್ಪುಪಟ್ಟಿಯಲ್ಲಿರುವ ಪದಗಳನ್ನು ವೀಕ್ಷಿಸಿ.
+        **ನಿರ್ವಾಹಕರು ಮಾತ್ರ:**
+        × /addblacklist: ಕಪ್ಪುಪಟ್ಟಿಗೆ ಪ್ರಚೋದಕವನ್ನು ಸೇರಿಸಿ. ಪ್ರತಿಯೊಂದು ಸಾಲನ್ನು ಒಂದು ಪ್ರಚೋದಕವೆಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ ವಿಭಿನ್ನ ಸಾಲುಗಳನ್ನು ಬಳಸುವುದರಿಂದ ಬಹು ಪ್ರಚೋದಕಗಳನ್ನು ಸೇರಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.
+        × /unblacklist: ಕಪ್ಪುಪಟ್ಟಿಯಿಂದ ಟ್ರಿಗ್ಗರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಅದೇ ಹೊಸ ಸಾಲಿನ ತರ್ಕ ಇಲ್ಲಿ ಅನ್ವಯಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ನೀವು ಏಕಕಾಲದಲ್ಲಿ ಅನೇಕ ಟ್ರಿಗ್ಗರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಬಹುದು.
+        × /blaction: ಬಳಕೆದಾರರು ಕಪ್ಪುಪಟ್ಟಿ ಪದವನ್ನು ಬಳಸಿದಾಗ ಈ ಕ್ರಿಯೆಯು ಸಂಭವಿಸುತ್ತದೆ. ಇವುಗಳಿಂದ ಆರಿಸಿ - 'kick', 'ban', 'mute', 'warn'.
+        ಡೀಫಾಲ್ಟ್ 'ಯಾವುದೂ ಇಲ್ಲ', ಇದು ಕಪ್ಪುಪಟ್ಟಿ ಪದವನ್ನು ಟೈಪ್ ಮಾಡುವಾಗ ಬಳಕೆದಾರರ ಸಂದೇಶವನ್ನು ಅಳಿಸುತ್ತದೆ.
+        **ಮಾಲೀಕರು ಮಾತ್ರ**
+        ×/rmallblacklist: ಪ್ರಸ್ತುತ ಚಾಟ್‌ನಿಂದ ಎಲ್ಲಾ ಕಪ್ಪುಪಟ್ಟಿಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.
+        ಗಮನಿಸಿ: ಒಂದು ಬಾರಿಗೆ ಒಂದು ಕಪ್ಪುಪಟ್ಟಿಯನ್ನು ಮಾತ್ರ ಸೇರಿಸಬಹುದು ಅಥವಾ ತೆಗೆದುಹಾಕಬಹುದು!
+        **ಉದಾಹರಣೆ:**
+        /addblacklist hello: ಇದು ಚಾಟ್‌ನಲ್ಲಿ 'hello' ಪದವನ್ನು ಕಪ್ಪುಪಟ್ಟಿಯಾಗಿ ಸೇರಿಸುತ್ತದೆ.
     filters:
       main: "Filters"
       help: |-
